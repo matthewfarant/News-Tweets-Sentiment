@@ -251,7 +251,7 @@ emotion_bloom %>%
   ggplot(aes(emotion_type,emotion_count))+
   geom_col(fill='#0000FF')+
   coord_flip()+
-  labs(x='Emotion Type',y="Word Cound",title='Bloomberg')->emotion_plot_bloom
+  labs(x='Emotion Type',y="Word Count",title='Bloomberg')->emotion_plot_bloom
 emotion_nbc<-emotion_by(corona_nbc$text)
 emotion_nbc %>% 
   filter(ave_emotion>0) %>% 
@@ -263,7 +263,7 @@ emotion_nbc %>%
   ggplot(aes(emotion_type,emotion_count))+
   geom_col(fill='#FF9900')+
   coord_flip()+
-  labs(x='Emotion Type',y="Word Cound",title='NBC Breaking News')->emotion_plot_nbc
+  labs(x='Emotion Type',y="Word Count",title='NBC Breaking News')->emotion_plot_nbc
 emotion_wsj<-emotion_by(corona_wsj$text)
 emotion_wsj %>% 
   filter(ave_emotion>0) %>% 
@@ -275,7 +275,7 @@ emotion_wsj %>%
   ggplot(aes(emotion_type,emotion_count))+
   geom_col(fill='#edb879')+
   coord_flip()+
-  labs(x='Emotion Type',y="Word Cound",title='Wall Street Journal')->emotion_plot_wsj
+  labs(x='Emotion Type',y="Word Count",title='Wall Street Journal')->emotion_plot_wsj
 ggarrange(emotion_plot_bbc,emotion_plot_cnn,emotion_plot_nyt,emotion_plot_bloom,emotion_plot_nbc,emotion_plot_wsj,
           ncol=3,nrow=3)
 ################## VIX ########################
