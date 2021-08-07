@@ -6,7 +6,7 @@ The growth of social data is rapidly increasing nowadays. During the global COVI
 All datasets are provided in the "datasets" folder. File with "full" prefix shows full twitter dataset of an account without cleaning & filtering process. File with "clean" prefix shows cleaned & filtered Covid-19 twitter dataset. File with "nf" suffix shows full cleaned twitter dataset without filtering (Covid-19 keywords) process.
 
 ### Contributors
-Matthew Farant (https://www.linkedin.com/in/matthewfarant/)<br/>
-Bernard L (https://www.linkedin.com/in/bernardlhf/)<br/>
-Eason Cheah (https://www.linkedin.com/in/eason0200/)<br/>
-Mentor: Chi Keong Lo (https://www.linkedin.com/in/chikeonglo/)
+[Matthew Farant](https://www.linkedin.com/in/matthewfarant/)<br/>
+[Bernard L](https://www.linkedin.com/in/bernardlhf/)<br/>
+[Eason Cheah](https://www.linkedin.com/in/eason0200/)<br/>
+Mentor: [Chi Keong Lo](https://www.linkedin.com/in/chikeonglo/)
